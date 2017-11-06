@@ -1,0 +1,167 @@
+/*font-family: 'Shadows Into Light', cursive;
+ font-family: 'Indie Flower', cursive;
+*/
+
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+
+.lista1 {
+	list-style-type: circle;
+	float: none;
+	padding-left: 30px;
+	background: none;
+	margin: 3px;
+	border-radius: none;
+	box-shadow: none; 
+}
+
+.social{
+ 	position: relative; 	
+	right: 0;
+ 	top: 500px;
+ 	z-index: 2000
+ 	
+
+ }
+
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.social ul li .icon-facebook2 {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-youtube {background: #d95232;}
+	.social ul li .icon-instagram {background: #ae181f;}
+	
+ 
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+
+
+/*ETIQUETAS*/
+body{
+background-color: #cc6600;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1{
+font-family: 'Shadows Into Light', cursive;
+color: blue;
+margin-left: 10px;
+font-size: 50px;
+text-align: center; 
+}
+
+h2{
+font-family: 'Indie Flower', cursive;
+color: white;
+margin-left: 30px;
+font-size: 30px;
+text-align: center; 
+}
+
+h3{
+font-family: 'Shadows Into Light', cursive;;
+color: blue;
+font-size: 30px;
+text-align: center; 
+}
+
+
+header{
+	width: 700px;
+	height: 120 px;
+	background: rgba(255, 255, 255, 10,70);
+}
+
+nav{
+width: 700px;
+height: 50px;
+background: yellow;
+border-radius: 10px;
+
+}
+ul{
+margin: auto;
+padding-top: 4px;
+}
+
+li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: black;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset; 
+
+}
+
+section{
+	width: 700px;
+	background: #668cff;
+	height: 1000px;
+	float: left;
+	margin-top: 25px;
+	border-radius: 10px;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+
+footer{
+width: 700px;
+height: 70px;
+background: yellow;
+float: left;
+margin-top: 20px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+
+p{
+
+	font-size: 15px;
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 10px;
+	text-align: justify;
+	color: white;
+}
+
+
+
+
+/*CLASES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 980px;}
+
+.menu:link{color: blue; text-decoration: none;}
+.menu:visited{color: blue; text-decoration: none;}
+.menu:hover{color: blue; text-decoration: none; text-shadow: 0 0 13px white;}
+.menu:active{color: blue; text-decoration: none;}
+
+/*SEUDO CLASES*/
+
